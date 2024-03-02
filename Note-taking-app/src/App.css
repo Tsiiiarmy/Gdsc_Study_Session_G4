@@ -1,0 +1,45 @@
+h1{
+  color: blueviolet;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 8px 8px 5px  black;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.note-input {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.note-input input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.note-list {
+  list-style: none;
+  padding: 0;
+}
+
+.note-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.note-list li button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.note-list li button:hover {
+  background-color: #d32f2f;
+}
